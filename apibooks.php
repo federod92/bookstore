@@ -22,6 +22,7 @@ class ApiBooks{
                     "isbn" => $row['isbn'],
                     "nombre" => $row['nombre'],
                     "autor" => $row['autor'],
+                    "precio" => $row['precio']
                     //"imagen" => $row['imagen'],
                 );
                 array_push($books["items"], $item);
